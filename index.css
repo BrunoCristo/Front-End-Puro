@@ -1,0 +1,140 @@
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+.row-wrap {
+	flex-flow: row wrap;
+}
+
+.item {
+    flex: 1;
+	margin: 5px;
+	text-align: center;
+    font-size: 18px;
+    line-height: 2.5rem;
+}
+
+h1 {
+	text-align: left;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+    font-weight: bold;
+    color: #2D2D2D;
+}
+
+h2 {
+	text-align: left;
+	margin: 20px 0 0 0;
+	font-size: 1em;
+    color: #2D2D2D;
+    font-weight: 600;
+}
+
+body {
+	font-family: Open Sans;
+	color: #5D5D67;
+}
+
+.filter {
+    text-align: left !important;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    width:300px
+}
+
+.aluguel {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.aluguel-1{
+    background-image: url("./img/img1.jpg");
+}
+
+.aluguel-2{
+    background-image: url("./img/img2.jpg");
+}
+
+.aluguel-3{
+    background-image: url("./img/img3.jpg");
+}
+
+.aluguel-4{
+    background-image: url("./img/img4.jpg");
+}
+
+.legenda {
+    color: #FFF;
+    text-align: left;
+    padding: 10px;
+    line-height: 15px;
+    padding-top: 180px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+@media (min-width: 1128px) {
+    .container.primary {
+        padding-right: 80px !important;
+        padding-left: 80px !important;
+        margin: 0px auto !important;
+    }
+}
+
+@media (min-width: 691px) {
+    .filter {
+        min-width: 300px;
+        max-width: 300px;
+        margin-right: 50px;
+    }
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.05em 0.05em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.35em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.35em;
+}
+
+.chevron.bottom:before {
+	top: 15px;
+	transform: rotate(135deg);
+}
+
+.primary-filter {
+    font-weight: 600;
+    color: #2D2D2D;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit;
+    line-height: 2.5rem;
+}
